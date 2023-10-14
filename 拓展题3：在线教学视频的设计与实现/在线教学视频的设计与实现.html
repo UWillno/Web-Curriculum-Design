@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>在线教学视频的设计与实现</title>
+    <link rel="stylesheet" href="css/course.css" />
+</head>
+<body>
+    <div id="course">
+        <h3>在线教学视频的设计与实现</h3><a href="../index.html">返回主页</a><hr />
+        <video id="screen" width="640" src="video/art.mp4" controls autoplay>
+            对不起，您的浏览器不支持HTML5视频
+        </video>
+        <ul>
+            <li>
+                <h3>欧洲简史</h3>
+            </li>
+            <hr />
+            <li onclick="playCourse(60)">
+                <img src="image/course/play.png" />
+                <span>早期基督美术建筑</span>
+            </li>
+            <hr />
+            <li onclick="playCourse(120)">
+                <img src="image/course/play.png" />
+                <span>早期基督美术之绘画</span>
+            </li>
+            <hr />
+            <li onclick="playCourse(220)">
+                <img src="image/course/play.png" />
+                <span>早期基督美术之绘画：拜占庭美术</span>
+            </li>
+            <hr />
+            <li onclick="playCourse(320)">
+                <img src="image/course/play.png" />
+                <span>早期基督美术之绘画：镶嵌画</span>
+            </li>
+            <hr />
+            <li onclick="playCourse(420)">
+                <img src="image/course/play.png" />
+                <span>早期基督美术之绘画：罗马式美术</span>
+            </li>
+        </ul>
+    </div>
+    <br />
+    <footer id="date" style="font-family:'Microsoft YaHei';text-align:center;color:#ff0000"></footer>
+    <script src="js/course.js"></script>
+</body>
+</html>

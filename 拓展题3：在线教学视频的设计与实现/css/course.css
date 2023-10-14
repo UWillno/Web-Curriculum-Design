@@ -1,0 +1,42 @@
+body{
+	background-color:silver;
+	text-align:center;
+}
+h3{
+	text-align:center;
+}
+ul{
+	text-align:left;
+	list-style:none;
+	padding:10px;
+	margin-top:-10px;
+}
+li span{
+	line-height:40px;
+	height:40px;
+	padding:0;
+}
+li:hover{
+	color:red;
+}
+img{
+	vertical-align:bottom;
+	width:40px;
+	height:40px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	color: coral;
+	font-family: FangSong;
+	font-weight: 900;
+}
+#course {
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	background-color: white;
+	width: 640px;
+	padding: 20px;
+	box-shadow: 10px 10px 15px black;
+}

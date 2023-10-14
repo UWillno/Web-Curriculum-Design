@@ -1,0 +1,47 @@
+#recycle{
+	width:600px;
+	height:50px;
+	border:1px dashed;
+	text-align:center;
+	line-height:50px;
+}
+body{
+	background-color:silver;
+}
+.photoframe{
+	background:url(../image/photoframe.jpg) no-repeat;
+	width:500px;
+	height:438px;
+	text-align:center;
+	float:left;
+}
+img{
+	vertical-align:middle;
+}
+.block{
+	width:0px;
+	height:100%;
+}
+#output{
+	float:none;
+	margin:10px;
+	text-align:center;
+	width:600px;
+	background-color:white;
+}
+#all {
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	background-color: white;
+	width: 600px;
+	padding: 20px;
+	box-shadow: 10px 10px 15px black;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	color: coral;
+	font-family: FangSong;
+	font-weight: 900;
+}

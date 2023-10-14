@@ -1,0 +1,43 @@
+#container{ 
+    text-align:center;
+    width:600px;
+    margin:auto;
+    padding:10px;
+    background-color:white;
+    box-shadow:10px 10px 15px gray;
+}
+body{
+    background-color:silver;
+}
+#status{
+    padding:10px;
+    width:400px;
+    height:20px;
+    margin:auto;
+}
+.box{
+    float:left;
+    width:200px;
+}
+button{
+    width:200px;
+    height:50px;
+    margin:10px 0;
+    border:0;
+    outline:0;
+    outline:none;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+    background-color:lightcoral;
+}
+button:hover{
+    background-color:coral;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: coral;
+    font-family: FangSong;
+    font-weight:900;
+}

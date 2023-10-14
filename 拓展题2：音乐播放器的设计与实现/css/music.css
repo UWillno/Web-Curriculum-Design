@@ -1,0 +1,32 @@
+a {
+	text-decoration: none;
+	text-align: center;
+	color: coral;
+	font-family: FangSong;
+	font-weight: 900;
+}
+body{
+	background-color:silver;
+}
+#container {
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	background-color: white;
+	width: 600px;
+	padding: 20px;
+	box-shadow: 10px 10px 15px black;
+}
+#CDimage img {
+	text-align: center;
+	background-color: white;
+	border-radius: 50%;
+}
+img{
+	border:0px;
+}
+button{
+	background:transparent;
+	border: 0;
+	outline:0;
+}

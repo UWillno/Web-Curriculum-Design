@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>图片相框展示的设计与实现</title>
+    <link rel="stylesheet" href="css/photoframe.css" />
+</head>
+<body>
+    <div id="all">
+        <h3>图片相框展示的设计与实现</h3><a href="../index.html">返回主页</a>
+        <hr />
+        <div id="recycle" ondragover="allowDrop(event)" ondrop="fileDrop(event)">
+            请将图片拖放至此处
+        </div>
+        <br />
+        <div id="output"></div>
+    </div>
+    <br />
+    <footer id="date" style="font-family:'Microsoft YaHei';text-align:center;color:#ff0000"></footer>
+    <script src="js/photoframe.js"></script>
+</body>
+</html>

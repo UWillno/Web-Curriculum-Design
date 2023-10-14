@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>基于HTML5的贪吃蛇游戏的设计与实现</title>
+    <link rel="stylesheet" href="css/tcs.css" />
+</head>
+<body>
+    <div id="container">
+        <h3>基于HTML5的贪吃蛇游戏 </h3><a href="../index.html">返回主页</a>
+        <hr />
+
+        <div id="status">
+            <div class="box">
+                历史最高分<span id="bestScore">0</span>
+            </div>
+            <div class="box">
+                当前分数：<span id="currentScore">0</span>
+            </div>
+        </div>
+        <canvas id="myCanvas" width="400" height="400" style="border:1px solid"></canvas>
+        <div><button onclick="window.location.reload()">重新开始</button></div>
+        <div style="text-align:center">按E(Easy)/N(Normal)/H(Hard)切换难度</div>
+    </div>
+    <br />
+    <footer id="date" style="font-family:'Microsoft YaHei';text-align:center;color:#ff0000"></footer>
+    <script src="js/tcs.js"></script>
+</body>
+</html>

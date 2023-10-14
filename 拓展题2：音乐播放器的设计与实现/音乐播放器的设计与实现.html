@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>音乐播放器的设计与实现</title>
+    <link rel="stylesheet" href="css/music.css" />
+</head>
+<body>
+    <div id="container">
+        <h3>音乐播放器的设计与实现</h3><a href="../index.html">返回主页</a>
+        <hr />
+
+        <div><audio id="audio" src="music/Serenade.mp3" preload="auto">对不起，您的浏览器不支持HTML5音频播放</audio></div>
+        <div id="CDimage"><img src="image/sky.jpg" /></div>
+        <div><input id="volume" type="range" min="0" max="1" step="0.1" onchange="setVolume()" /></div>
+        <div>当前正在播放：<span id="title">小夜曲</span></div>
+        <div>
+            <button onclick="lastMusic()"><img src="image/previous.png" width="50" height="50" /></button>
+            <button id="toggleBtn" onclick="toggleMusic()"><img src="image/play.png" width="50" height="50" /></button>
+            <button onclick="nextMusic()"><img src="image/next.png" width="50" height="50" /></button>
+        </div>
+    </div>
+    <br />
+    <footer id="date" style="font-family:'Microsoft YaHei';text-align:center;color:#ff0000"></footer>
+    <script src="js/music.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#container {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px black;
+}
+a {
+    text-decoration: none;
+    color: #ff6a00;
+}
+
+div {
+    text-align: center;
+    font-family: FangSong;
+}
+
+body {
+    background-size: 1920px 1080px;
+    background-color: silver;
+}

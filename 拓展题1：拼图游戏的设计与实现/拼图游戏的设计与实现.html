@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>拼图游戏的设计与实现</title>
+    <link rel="stylesheet" href="css/pintu.css" />
+   
+</head>
+<body>
+    <div id="container">
+        <h3>拼图游戏的设计与实现</h3>
+        <a href="../index.html">返回主页</a>
+        <hr />
+        <div id="timeBox">
+            共计时间：<span id="time">00:00:00</span>
+        </div>
+        <canvas id="myCanvas" width="300" height="300" style="border:1px solid">
+            对不起，您的浏览器不支持HTML5画布API
+        </canvas>
+        <div>
+            <button onclick="restartGame()">
+                重新开始
+            </button>
+        </div>
+    </div>
+    <script src="js/pintu.js"></script>
+    <br />
+    <footer id="date" style="font-family:'Microsoft YaHei';text-align:center;color:#ff0000"></footer>
+</body>
+</html>
